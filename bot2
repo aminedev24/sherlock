@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sherlock</title>
+    <link rel="stylesheet" href="bot.css">
+
+</head>
+<body>
+    <div class="chatBox">
+        
+    <img src="robot.jpg" alt="" width="45px" height="45px" class="robotImg">
+    
+    <span>Robot</span> 
+
+   
+
+    <div class="buttons">
+        
+        <button id="start">Start</button><button id="clear">Clear</button>
+    </div>
+    
+    <div class="notifs"><p class="messageCount"></p></div>
+
+    <input id="input" type="text" placeholder="How can i help you?">
+            
+   
+     
+
+    <div id="messages">
+    
+    </div>
+
+     
+    </div>
+    
+</body>
+<script src="bot.js"></script>
+</html>

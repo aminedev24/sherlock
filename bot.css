@@ -1,0 +1,85 @@
+.chatBox{
+    background-color: aliceblue;
+    max-width: 50%;
+    margin: 0 auto;
+   }
+    .chatBox input {
+        padding: 12px;
+        margin: 0 auto;
+        display: none;
+        position: relative;
+        left: 64px;
+    }
+    .chatBox span {
+        display: inline-block;
+        position: absolute;
+        margin: 23px 14px;
+    }
+
+     .robotImg {
+        border-radius: 60px;
+    }
+
+    #start {
+        float: right;
+        margin: 20px;
+        right: 343px;
+
+    }
+    .message p {
+        display: inline;
+    }
+
+    #clear {
+        float: right;
+        position: relative;
+        left: 15px;
+        top: 20px;
+    }
+
+    .time {
+        background-color: darkgray;
+        border: solid 1.5px olivedrab;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+
+    .hour{
+        margin-left: 40px;
+    }
+
+    .buttons {
+        float: right;
+        position: relative;
+    }
+
+    .notifs {
+        border: solid;
+        position: relative;
+        width: 111px;
+        float: right;
+        top: 22px;
+    }
+
+    .messageCount {
+        font-size: 12px;
+        margin-block-start: 0px;
+        margin-block-end: 0;
+        text-align: center;
+    }
+
+@media only screen and (max-width:700px){
+    .notifs {
+        width: 90px;
+    }
+
+    #input {
+        margin: 17px auto;
+        left: unset;
+    }
+
+    .chatBox {
+        min-width: 100%;
+        height: 61px;
+    }
+}
